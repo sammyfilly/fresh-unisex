@@ -578,9 +578,9 @@
     uuid "^9.0.0"
 
 "@medusajs/medusa-js@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa-js/-/medusa-js-6.0.3.tgz#2fe4caab4a98c69f84e68ffdfe1c07d59d24af28"
-  integrity sha512-VYPbPP4wilog6vCIkRLkaiiJOuuY0b33X3vMtV/FXnJXOOAtV/k3kyEgsORZytMofBw1kL4phHoh5+B0582iMQ==
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa-js/-/medusa-js-6.0.4.tgz#9e1e426e9065a3b34e8b7e415a42c79b6b62ace9"
+  integrity sha512-zJMTbILTeCogfgvJCB1E5RyDAC90m6wgw0+t7T3BfVo4A4iqx3PlfVT0np9SSOQXSljYu05qO6+BSYJULHgPUg==
   dependencies:
     axios "^0.24.0"
     cross-env "^5.2.1"
@@ -7060,9 +7060,9 @@ uuid@^8.3.2:
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 uuid@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
-  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
