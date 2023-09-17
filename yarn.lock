@@ -344,6 +344,13 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
+"@babel/runtime@^7.22.10":
+  version "7.22.15"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.15.tgz#38f46494ccf6cf020bd4eed7124b425e83e523b8"
+  integrity sha512-T0O+aa+4w0u06iNmapipJXMV4HoUir03hpx3/YqXXhu9xim3w+dVphjFWl1OH8NbZHw5Lbm9k45drDkgq2VNNA==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/template@^7.20.7":
   version "7.20.7"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.20.7.tgz#a15090c2839a83b02aa996c0b4994005841fd5a8"
@@ -521,30 +528,31 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@medusajs/client-types@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@medusajs/client-types/-/client-types-0.2.2.tgz#44142fc0fa5e77450b3b985278df405a33b777f8"
-  integrity sha512-fgQ0+SIoxq3PbOG5U6liNLi1kvgT1TeCDbVQ7QXDhm3auaZ7Fc56VOjafvuIvBPELRazJhqTAEhyYYgo1AbJ9A==
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@medusajs/client-types/-/client-types-0.2.5.tgz#8baa26ca34232970a37eebd36fca93c018c447a7"
+  integrity sha512-jB43v+OWNSVo+9jv4EWShDKy+JGEx/LYRdcC0iS8HQx9eXNqSIsP27R8sRetdxschsuE+bd6K2Lj130DFiOICw==
 
 "@medusajs/medusa-cli@^1.3.16":
-  version "1.3.16"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.16.tgz#849e94d478ba51a4541d37872c169fda1be92cfa"
-  integrity sha512-nXhRfWr2hBfuQx+P35Me4H6OY6PONqEl2TIeyP4R3GJ2eUDc6GSyrafA05KavDZr8F4i04im5mWSAt+KHd1CVA==
+  version "1.3.21"
+  resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.21.tgz#d69707a268e04e28db60ad823f2114c3086b2cec"
+  integrity sha512-j898S/3ipWFG3HIBZtyUc/KfqnO2JV5h4Mj30M/P+7vXxvLlpavKiU6qdBRxLZBQHHZ2mGuyHRoq3RatHrrw/Q==
   dependencies:
-    "@medusajs/utils" "^1.9.1"
+    "@medusajs/utils" "^1.10.0"
     axios "^0.21.4"
     chalk "^4.0.0"
     configstore "5.0.1"
     core-js "^3.6.5"
-    dotenv "^8.2.0"
+    dotenv "16.0.3"
     execa "^5.1.1"
     fs-exists-cached "^1.0.0"
     fs-extra "^10.0.0"
+    glob "^7.1.6"
     hosted-git-info "^4.0.2"
     inquirer "^8.0.0"
     is-valid-path "^0.1.1"
     meant "^1.0.3"
     medusa-core-utils "^1.2.0"
-    medusa-telemetry "^0.0.16"
+    medusa-telemetry "^0.0.17"
     open "^8.0.6"
     ora "^5.4.1"
     pg "^8.11.0"
@@ -555,7 +563,6 @@
     semver "^7.3.8"
     stack-trace "^0.0.10"
     ulid "^2.3.0"
-    url "^0.11.0"
     winston "^3.8.2"
     yargs "^15.3.1"
 
@@ -684,10 +691,28 @@
   resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.10.2.tgz#2f9e08fe0846e8323f89f62044d9a38e96747cbe"
   integrity sha512-p92EBgpr4qQsbiL1ER9awBdmZKweAZAK3Qv3sf38lhySrAhWGysm5CQta97M2dX+AosMKwyzoxjlM38m6Yxm2g==
 
+"@medusajs/types@^1.11.1":
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.11.1.tgz#eb8d3b82fa6ef5e4ef57618467e552186a5d5640"
+  integrity sha512-aSkbd/ZEY3ZV1sgn9YMd0ORrgefLu3qP7RO4StQfDUoeK1heWyHGWmxp2lG3hSkatgxpET7elDOvABGObcUDQQ==
+
 "@medusajs/types@^1.8.8":
   version "1.8.8"
   resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.8.8.tgz#42a0d63df9a70911de9bf5600f9e24745a8efa16"
   integrity sha512-3ztLgmvcwEkWV8FlF0t4rYfxfd5in4p0HYt0NSRiZTQf9DVr/LEezq1vvMzODUkb3i1/kyrrURZDQMrq5m23gg==
+
+"@medusajs/utils@^1.10.0":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.10.1.tgz#34ae44dde035a3d718625d2c1361991f7ac9428d"
+  integrity sha512-EMxJ3QsY7y0hDs2fNgvsE6iUnu/hgZHFNY637+fUkKZ/b1o+V5egAB3KJO2gqxZneM5dddwyhc+XRbT8Os1CTQ==
+  dependencies:
+    "@medusajs/types" "^1.11.1"
+    "@mikro-orm/core" "5.7.12"
+    "@mikro-orm/migrations" "5.7.12"
+    "@mikro-orm/postgresql" "5.7.12"
+    awilix "^8.0.1"
+    knex "2.4.2"
+    ulid "^2.3.0"
 
 "@medusajs/utils@^1.9.1":
   version "1.9.1"
@@ -2746,25 +2771,20 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@16.0.3, dotenv@^16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
 dotenv@16.1.4:
   version "16.1.4"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.4.tgz#67ac1a10cd9c25f5ba604e4e08bc77c0ebe0ca8c"
   integrity sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==
 
-dotenv@^16.0.3:
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
-  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
-
 dotenv@^16.1.4:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
-
-dotenv@^8.2.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
-  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -4812,6 +4832,22 @@ medusa-telemetry@^0.0.16:
     remove-trailing-slash "^0.1.1"
     uuid "^8.3.2"
 
+medusa-telemetry@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/medusa-telemetry/-/medusa-telemetry-0.0.17.tgz#44e434307d7078491fb0bddb47883e6af7ec0ba2"
+  integrity sha512-Wwtm7QE1AKME0/uiEPen7lfzE9wnaO7J9Or8ObT8eTUipOqIbYRLEY7SSdGjMRg4NdyrzOJMIIjbcPz+vvsRVw==
+  dependencies:
+    "@babel/runtime" "^7.22.10"
+    axios "^0.21.4"
+    axios-retry "^3.1.9"
+    boxen "^5.0.1"
+    ci-info "^3.2.0"
+    configstore "5.0.1"
+    global "^4.4.0"
+    is-docker "^2.2.1"
+    remove-trailing-slash "^0.1.1"
+    uuid "^8.3.2"
+
 medusa-test-utils@^1.1.40:
   version "1.1.41"
   resolved "https://registry.yarnpkg.com/medusa-test-utils/-/medusa-test-utils-1.1.41.tgz#5a66146c61bc549b9e795a0d02d4bb5743b2d262"
@@ -5774,11 +5810,6 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-punycode@1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
-  integrity sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==
-
 punycode@^2.1.0, punycode@^2.1.1:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
@@ -5809,11 +5840,6 @@ qs@~6.10.3:
   integrity sha512-O5RlPh0VFtR78y79rgcgKK4wbAI0C5zGVLztOIdpWX6ep368q5Hv6XRxDvXuZ9q3C6v+e3n8UfZZJw7IIG27eQ==
   dependencies:
     side-channel "^1.0.4"
-
-querystring@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
-  integrity sha512-X/xY82scca2tau62i9mDyU9K+I+djTMUsvwf7xnUX5GLvVzgJybOJf4Y6o9Zx3oJK/LSXg5tTZBjwzqVPaPO2g==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -6021,6 +6047,11 @@ regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
+
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
 
 regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.0:
   version "1.5.0"
@@ -7007,14 +7038,6 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
-
-url@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/url/-/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
-  integrity sha512-kbailJa29QrtXnxgq+DdCEGlbTeYM2eJUxsz6vjZavrCYPMIFHMKQmSKYAIuUK2i7hgPm28a8piX5NTUtM/LKQ==
-  dependencies:
-    punycode "1.3.2"
-    querystring "0.2.0"
 
 use-sync-external-store@^1.0.0, use-sync-external-store@^1.2.0:
   version "1.2.0"
